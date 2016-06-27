@@ -1,0 +1,27 @@
+{
+  "name": "project0-corsproxy",
+  "version": "0.1.0",
+  "description": "Proxy all request to an remote server and set CORS Header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/project0/node-corsproxy"
+  },
+  "keywords": [
+    "CORS",
+    "proxy"
+  ],
+  "bin": {
+    "project0-corsproxy": "./index.js"
+  },
+  "author": "Richard Hillmann <richie@project0.de>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "express": "^4.10.4",
+    "morgan": "^1.7.0",
+    "request": "^2.48.0"
+  }
+}
